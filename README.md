@@ -21,21 +21,21 @@ module.exports = {
   theme: {
     // ...
     deliciousHamburgers: {
-      size: `30px`, // must be in px.
-      color: `#586061`,
-      colorLight: `#fff8f4`,
-      padding: `0px`, // must be in px.
+      size: '30px', // must be in px.
+      color: '#586061',
+      colorLight: '#fff8f4',
+      padding: '0px', // must be in px.
       animationSpeed: 1,
     },
   },
   variants: {},
-  plugins: [tailwindcssDeliciousHamburgers],
+  plugins: [require('tailwindcss-delicious-hamburgers')],
 }
 ```
 
 ## Example markup
 
-replace `c-hamburger--magnetic` with any other animation from [this list](https://kapoko.github.io/delicious-hamburgers/)
+replace 'c-hamburger--magnetic' with any other animation from [this list](https://kapoko.github.io/delicious-hamburgers/)
 
 ```html
 <div class="c-hamburger c-hamburger--magnetic">

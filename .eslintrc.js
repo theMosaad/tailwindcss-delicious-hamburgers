@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
-  extends: `eslint:recommended`,
-  parser: `babel-eslint`,
+  extends: 'eslint:recommended',
+  parser: 'babel-eslint',
   globals: {
     wp: true,
   },
@@ -19,27 +19,23 @@ module.exports = {
       objectLiteralDuplicateProperties: false,
     },
     ecmaVersion: 2017,
-    sourceType: `module`,
+    sourceType: 'module',
   },
-  plugins: [`import`],
+  plugins: ['import'],
   settings: {
     'import/core-modules': [],
-    'import/ignore': [
-      `node_modules`,
-      `\\.(coffee|scss|css|less|hbs|svg|json)$`,
-    ],
+    'import/ignore': ['node_modules', '\\.(coffee|scss|css|less|hbs|svg|json)$'],
   },
   rules: {
-    quotes: [`error`, `backtick`],
     'no-console': 0,
     'comma-dangle': [
-      `error`,
+      'error',
       {
-        arrays: `always-multiline`,
-        objects: `always-multiline`,
-        imports: `always-multiline`,
-        exports: `always-multiline`,
-        functions: `ignore`,
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'ignore',
       },
     ],
   },
