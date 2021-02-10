@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-delicious-hamburgers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Tailwind CSS component that produces an animatable hamburger menu",
   "main": "src/index.js",
   "repository": {
