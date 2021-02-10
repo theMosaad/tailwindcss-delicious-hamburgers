@@ -1,0 +1,45 @@
+{
+  "name": "tailwindcss-delicious-hamburgers",
+  "version": "0.0.0",
+  "description": "A Tailwind CSS component that produces an animatable hamburger menu",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theMosaad/tailwindcss-delicious-hamburgers.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "tailwindcss",
+    "hamburger menu"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Mosaad (https://themosaad.com)",
+  "scripts": {
+    "release": "np"
+  },
+  "bugs": {
+    "url": "https://github.com/theMosaad/tailwindcss-delicious-hamburgers/issues"
+  },
+  "homepage": "https://github.com/theMosaad/tailwindcss-delicious-hamburgers#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-wesbos": "1.0.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "np": "^6.5.0",
+    "prettier": "^2.1.1",
+    "stylelint": "^13.9.0",
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "dependencies": {}
+}
