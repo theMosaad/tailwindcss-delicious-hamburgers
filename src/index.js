@@ -385,7 +385,7 @@ module.exports = plugin.withOptions((options = {}) => {
               transform: `translate3d(0, 0, 0)`,
 
               '&::before': {
-                transition: `transform ${0.35 / animationSpeed}s ${easing} ${0.15 / animationSpeed}s, 
+                transition: `transform ${0.35 / animationSpeed}s ${easing} ${0.15 / animationSpeed}s,
                   background ${0.35 / animationSpeed}s ${easing} ${0.15 / animationSpeed}s`,
               },
             },
@@ -457,7 +457,7 @@ module.exports = plugin.withOptions((options = {}) => {
             opacity: `0`,
             transformOrigin: `0 50%`,
             transition: `transform ${0.4 / animationSpeed}s ${easing},
-                  opacity ${0.4 / animationSpeed}s ${easing}, 
+                  opacity ${0.4 / animationSpeed}s ${easing},
                   background ${0.4 / animationSpeed}s ${easing}`,
           },
 
@@ -793,7 +793,7 @@ module.exports = plugin.withOptions((options = {}) => {
             },
 
             '&:nth-child(3)': {
-              transform: `scaleX(1) translate3d(0, ${barSpacing}, 0)`,
+              transform: `scaleX(1) translate3d(0, ${barSpacing}px, 0)`,
             },
           },
         },
@@ -926,7 +926,7 @@ module.exports = plugin.withOptions((options = {}) => {
 
         [`&.${e(`${activeClassName}`)}`]: {
           [`span.${e(`${componentPrefix}${className}`)}-bar`]: {
-            transition: `transform ${0.25 / animationSpeed}s ${easing}, 
+            transition: `transform ${0.25 / animationSpeed}s ${easing},
                     opacity ${0.25 / animationSpeed}s ${easing}`,
 
             '&:nth-child(1), &:nth-child(3)': {
