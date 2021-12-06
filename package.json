@@ -17,7 +17,7 @@
   },
   "author": "Mosaad (https://themosaad.com)",
   "scripts": {
-    "release": "np"
+    "release": "np --no-tests"
   },
   "bugs": {
     "url": "https://github.com/theMosaad/tailwindcss-delicious-hamburgers/issues"
